@@ -1,0 +1,3 @@
+java[x]?\.\w+\.\w+Exception
+Stack Trace: 
+Fatal error: .+ on line [\d]+
