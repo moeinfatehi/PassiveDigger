@@ -1,0 +1,9 @@
+robots.txt
+access.log
+error.log
+error_log
+access_log
+.git/
+.htaccess
+db.sql
+xmlrpc

@@ -1,0 +1,6 @@
+You have an error in your SQL syntax
+Unclosed quotation mark after the character string
+quoted string not properly terminated
+Duplicate entry '.+' for key 'group_key'
+The ORDER BY position number.+is out of range of the number of items in the select list
+Conversion failed when converting the .+to data type ([^ ]|[\w])+

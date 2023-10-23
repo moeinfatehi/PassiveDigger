@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PassiveDigger Burp Suite Extension</title>
+</head>
+<body>
+
+    <h1>PassiveDigger: A Burp Suite Extension</h1>
+
+    <h2>Overview</h2>
+    <p>
+        PassiveDigger is a Burp Suite extension that allows you to set multiple targets for passive traffic analysis. By right-clicking on any request-response pair in various Burp Suite tabs like Proxy, History, Repeater, Scanner, etc., you can set a target for PassiveDigger to analyze.
+    </p>
+
+    <h2>Features</h2>
+
+    <h3>Requests Checks</h3>
+    <ul>
+        <li>Find file upload functionalities</li>
+        <li>Find serialized data in request</li>
+        <li>Find base64-Encoded data in request</li>
+    </ul>
+
+    <h3>Responses Checks</h3>
+    <ul>
+        <li>Find SQL errors in response for SQL injection</li>
+        <li>Find Reflected params (Possible XSS or HTML injection)</li>
+        <li>Find possible LFI vulnerabilities</li>
+        <li>Find sensitive files</li>
+        <li>Fingerprint web server/application</li>
+        <li>Find directory indexing/browsing</li>
+        <li>Find possible Execution After Redirection (EAR)</li>
+        <li>Find sensitive data in errors</li>
+        <li>Find misconfiguration in Cookie flags</li>
+        <li>Find Base64-encoded data in response</li>
+        <li>Extract email addresses</li>
+        <li>Extract phone numbers</li>
+    </ul>
+
+    <h3>Analyzer Tab</h3>
+    <p>
+        All the detected vulnerabilities and issues are listed in the "Analyzer" tab. You can enable or disable checks and even update the analysis by clicking the "Update Analyzer Tab" button.
+    </p>
+
+    <h4>Vulnerability Details</h4>
+    <ul>
+        <li>Severity</li>
+        <li>URL</li>
+        <li>Parameter</li>
+        <li>Parameter Type</li>
+        <li>Check Code</li>
+        <li>Description</li>
+        <li>CVSS Score (if applicable)</li>
+        <li>Full Request and Response for PoC</li>
+    </ul>
+
+    <h3>Additional Features</h3>
+    <ul>
+        <li>Load past traffic from History or Sitemap</li>
+        <li>Mark findings as False Positive</li>
+        <li>Send findings to "Repeater" or "Intruder" for further tests</li>
+    </ul>
+
+    <h3>Headers Tab</h3>
+    <p>
+        This tab lists unique headers and their values detected in the responses. An exception field allows you to exclude certain headers.
+    </p>
+
+    <h3>Security Headers</h3>
+    <ul>
+        <li>X-XSS-Protection</li>
+        <li>X-Frame-Options</li>
+        <li>Content-Security-Policy</li>
+        <li>X-Content-Type-Options</li>
+        <li>Referrer-Policy</li>
+        <li>Strict-Transport-Security (WSTG-CONF-07)</li>
+    </ul>
+    <h2>Contact</h2>
+    <p>For more information and updates, follow me on:</p>
+    <ul>
+        <li><a href="https://twitter.com/moeinfatehi" target="_blank">Twitter: @moeinfatehi</a></li>
+        <li><a href="https://github.com/moeinfatehi" target="_blank">GitHub: moeinfatehi</a></li>
+    </ul>
+
+</body>
+</html>
