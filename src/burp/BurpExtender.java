@@ -13,7 +13,7 @@ public class BurpExtender extends JPanel implements IBurpExtender
     static JScrollPane frame;
     public static PrintWriter output;
     public static String project_Name="PassiveDigger";
-    private static final String project_Version="0.2";
+    private static final String project_Version="2.0.0";
     
     public BurpExtender() {
 //        this.historyModel = (DefaultTableModel)mainPanel.historyTable.getModel();
